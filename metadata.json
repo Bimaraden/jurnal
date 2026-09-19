@@ -1,0 +1,6 @@
+{
+  "name": "TugasHub - SMAN 90 Jakarta",
+  "description": "Aplikasi pengumpulan tugas ekskul jurnalistik SMAN 90 Jakarta dibuat oleh PijarDev.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

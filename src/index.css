@@ -1,0 +1,196 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+body {
+  background-color: #F2F2F2;
+  color: #111111;
+  font-family: 'Space Grotesk', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Scrollbar styling matching the Brutalist visual direction */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #FFFFFF;
+  border-left: 3px solid #111111;
+}
+::-webkit-scrollbar-thumb {
+  background: #111111;
+  border: 2px solid #FFFFFF;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FFD21F;
+}
+
+/* Brutalist Custom Classes */
+.neo-brutal-card {
+  background-color: #FFFFFF;
+  color: #111111;
+  border: 3px solid #111111;
+  box-shadow: 6px 6px 0px #111111;
+  border-radius: 0px;
+}
+
+.neo-brutal-card-green {
+  background-color: #FFFFFF;
+  color: #111111;
+  border: 3px solid #111111;
+  box-shadow: 6px 6px 0px #18A558;
+  border-radius: 0px;
+}
+
+.neo-brutal-card-yellow {
+  background-color: #FFFFFF;
+  color: #111111;
+  border: 3px solid #111111;
+  box-shadow: 6px 6px 0px #FFD21F;
+  border-radius: 0px;
+}
+
+.neo-brutal-btn-yellow {
+  background-color: #FFD21F;
+  color: #111111;
+  border: 3px solid #111111;
+  box-shadow: 4px 4px 0px #111111;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.1s ease;
+  border-radius: 0px;
+  cursor: pointer;
+}
+.neo-brutal-btn-yellow:hover:not(:disabled) {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px #111111;
+}
+.neo-brutal-btn-yellow:active:not(:disabled) {
+  transform: translate(4px, 4px);
+  box-shadow: 0px 0px 0px #111111;
+}
+.neo-brutal-btn-yellow:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.neo-brutal-btn-green {
+  background-color: #18A558;
+  color: #FFFFFF;
+  border: 3px solid #111111;
+  box-shadow: 4px 4px 0px #111111;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.1s ease;
+  border-radius: 0px;
+  cursor: pointer;
+}
+.neo-brutal-btn-green:hover:not(:disabled) {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px #111111;
+}
+.neo-brutal-btn-green:active:not(:disabled) {
+  transform: translate(4px, 4px);
+  box-shadow: 0px 0px 0px #111111;
+}
+.neo-brutal-btn-green:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.neo-brutal-btn-white {
+  background-color: #FFFFFF;
+  color: #111111;
+  border: 3px solid #111111;
+  box-shadow: 4px 4px 0px #111111;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.1s ease;
+  border-radius: 0px;
+  cursor: pointer;
+}
+.neo-brutal-btn-white:hover:not(:disabled) {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px #111111;
+}
+.neo-brutal-btn-white:active:not(:disabled) {
+  transform: translate(4px, 4px);
+  box-shadow: 0px 0px 0px #111111;
+}
+.neo-brutal-btn-white:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.neo-brutal-btn-black {
+  background-color: #111111;
+  color: #FFFFFF;
+  border: 3px solid #111111;
+  box-shadow: 4px 4px 0px #18A558;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.1s ease;
+  border-radius: 0px;
+  cursor: pointer;
+}
+.neo-brutal-btn-black:hover:not(:disabled) {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px #18A558;
+}
+.neo-brutal-btn-black:active:not(:disabled) {
+  transform: translate(4px, 4px);
+  box-shadow: 0px 0px 0px #18A558;
+}
+.neo-brutal-btn-black:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.neo-brutal-input {
+  background-color: #FFFFFF;
+  color: #111111;
+  border: 3px solid #111111;
+  border-radius: 0px;
+  transition: all 0.1s ease;
+}
+.neo-brutal-input:focus {
+  background-color: #FFFFFF;
+  border-color: #18A558;
+  box-shadow: 3px 3px 0px #FFD21F;
+}
+
+.neo-brutal-badge-green {
+  background-color: #18A558;
+  color: #FFFFFF;
+  border: 2px solid #111111;
+  font-weight: 700;
+  border-radius: 0px;
+}
+
+.neo-brutal-badge-yellow {
+  background-color: #FFD21F;
+  color: #111111;
+  border: 2px solid #111111;
+  font-weight: 700;
+  border-radius: 0px;
+}
+
+.neo-brutal-badge-black {
+  background-color: #111111;
+  color: #FFFFFF;
+  border: 2px solid #111111;
+  font-weight: 700;
+  border-radius: 0px;
+}
+
+.neo-brutal-badge-white {
+  background-color: #FFFFFF;
+  color: #111111;
+  border: 2px solid #111111;
+  font-weight: 700;
+  border-radius: 0px;
+}

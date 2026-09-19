@@ -1,0 +1,126 @@
+{
+  "periods": [
+    {
+      "id": "2026-08",
+      "name": "Agustus 2026",
+      "month": 8,
+      "year": 2026,
+      "status": "archived"
+    },
+    {
+      "id": "2026-09",
+      "name": "September 2026",
+      "month": 9,
+      "year": 2026,
+      "status": "active"
+    },
+    {
+      "id": "2026-10",
+      "name": "Oktober 2026",
+      "month": 10,
+      "year": 2026,
+      "status": "archived"
+    }
+  ],
+  "students": [
+    {
+      "nisn": "0012345678",
+      "name": "Budi Santoso",
+      "className": "XI-1",
+      "active": true,
+      "createdAt": "2026-08-01T00:00:00.000Z"
+    },
+    {
+      "nisn": "0012345679",
+      "name": "Andi Pratama",
+      "className": "XI-1",
+      "active": true,
+      "createdAt": "2026-08-01T00:00:00.000Z"
+    },
+    {
+      "nisn": "0012345680",
+      "name": "Citra Ramadhani",
+      "className": "XI-2",
+      "active": true,
+      "createdAt": "2026-08-01T00:00:00.000Z"
+    },
+    {
+      "nisn": "0012345681",
+      "name": "Dewi Lestari",
+      "className": "XII-MIPA-3",
+      "active": true,
+      "createdAt": "2026-08-01T00:00:00.000Z"
+    }
+  ],
+  "assignments": [
+    {
+      "id": "task-01",
+      "periodId": "2026-09",
+      "number": 1,
+      "title": "Liputan Kegiatan Sekolah",
+      "description": "Ambil beberapa foto jurnalistik dokumentasi kegiatan sekolah (upacara bendera, bazar, atau rapat OSIS) yang memiliki muatan berita kuat. Sertakan keterangan foto singkat.",
+      "type": "photo",
+      "allowedFileTypes": [
+        "image/jpeg",
+        "image/png",
+        "image/webp"
+      ],
+      "maxFiles": 5,
+      "maxFileSizeMB": 10,
+      "deadline": "2026-09-25T23:59:59.000Z",
+      "active": true
+    },
+    {
+      "id": "task-02",
+      "periodId": "2026-09",
+      "number": 2,
+      "title": "Foto Jurnalistik (Human Interest)",
+      "description": "Ambil foto human interest di lingkungan sekolah yang menggambarkan interaksi humanis antara warga sekolah. Foto harus orisinal dan tidak boleh hasil rekayasa.",
+      "type": "photo",
+      "allowedFileTypes": [
+        "image/jpeg",
+        "image/png",
+        "image/webp"
+      ],
+      "maxFiles": 3,
+      "maxFileSizeMB": 10,
+      "deadline": "2026-09-28T23:59:59.000Z",
+      "active": true
+    },
+    {
+      "id": "task-03",
+      "periodId": "2026-09",
+      "number": 3,
+      "title": "Artikel Berita Kebersihan",
+      "description": "Tulis sebuah artikel berita mengenai kampanye kebersihan lingkungan sekolah yang baru dirintis. Berkas wajib berformat PDF dengan bahasa jurnalistik baku.",
+      "type": "pdf",
+      "allowedFileTypes": [
+        "application/pdf"
+      ],
+      "maxFiles": 1,
+      "maxFileSizeMB": 10,
+      "deadline": "2026-09-30T23:59:59.000Z",
+      "active": true
+    },
+    {
+      "id": "task-04",
+      "periodId": "2026-09",
+      "number": 4,
+      "title": "Dokumentasi Ekskul Mingguan",
+      "description": "Kumpulkan dokumentasi kegiatan kumpul ekskul Jurnalistik minggu ini beserta tulisan refleksi singkat dalam bentuk PDF atau kompilasi foto.",
+      "type": "mixed",
+      "allowedFileTypes": [
+        "image/jpeg",
+        "image/png",
+        "image/webp",
+        "application/pdf"
+      ],
+      "maxFiles": 4,
+      "maxFileSizeMB": 10,
+      "deadline": "2026-10-02T23:59:59.000Z",
+      "active": true
+    }
+  ],
+  "submissions": [],
+  "googleDrive": {}
+}
